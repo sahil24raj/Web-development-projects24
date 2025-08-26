@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar {
+    height: 80px;
+    background-color: black;
+    color: rgb(230, 214, 69);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    padding: 6px;
+border:1.8px solid transparent;
+}
+.border:hover {
+    border: 2px solid  rgb(230, 214, 69);
+}
+
+.main-img {
+    background-image: url(sahil.png);
+    background-size: cover;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.all-mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+}
+.li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.fb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ig {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.x {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.gh {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boi {
+    
+    display: flex;
+    background-color: navy;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(230, 214, 69);
+    text-align: center;
+}
+ .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   padding-top: 15px;
+  height:80px;
+ text-align: center;
+  background-color: black;
+  justify-content: center;
+    color: rgb(230, 214, 69);
+    border-top: 1px solid white;
+}
+.myself {
+background-color: navy;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
